@@ -1,0 +1,192 @@
+
+body{
+    background-color: #1f2535;
+
+    color:white;
+    text-shadow: 5px 5px #000000;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.avatar{
+    width: 150px;
+    border-radius: 26px;
+    box-shadow: 4px 4px 14px rgba(0,0,0,025);
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.unitNumber{
+    color: #f0524a;
+}
+
+
+@font-face {
+    font-family: Roboto;
+    src: url(font/Roboto-Bold.ttf);
+}
+
+.mainInfo p{
+    margin: 0;
+    font-style: italic;
+    font-size:large;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+    margin-left: 450px;
+}
+
+.container p, .container a{
+    margin-left: 20px;
+    padding-top: -10px;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color:#f0524a;
+}
+
+a:visited{
+    color:grey;
+}
+
+.card{
+    background: #151a27;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+.card h2{
+    margin-bottom: 10px;
+    margin-left: 20px;
+    background-color: #f0524a;
+    color:black;
+    text-shadow: none;
+    max-width: 300px;
+}
+
+.message{
+    max-width: 800px;
+    margin: auto; 
+}
+
+.list{
+    padding: 0 30px;
+}
+
+.table{
+    width: 100%;
+}
+
+.table td{
+    padding-bottom: 10px;
+    padding:  0 15px;
+}
+
+.form-group label{
+    display: block;
+    font-size: 14px;
+    color: white;
+}
+
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1p solid #ccc;
+    padding: 15px 0 10px;
+    outline: #f0524a;
+    background: #151a27;
+}
+
+.row{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.row > .form-group{
+    width: 50%;
+    margin-right: 20px;
+}
+
+
+.infotext p{
+font-size: 15px;
+}
+
+.infotext h2{
+    margin-bottom: 10px;
+}
+
+.btn{
+    color: #f0524a;
+    background: #151a27;
+    border: none;
+    width: 100px;
+    height: 50px;
+    padding: 15px, 100px;
+    font-family: Roboto;
+    cursor: pointer;
+}
+
+.friendship{
+    position: fixed;
+    top: 400px;
+    left: 10px;
+    width: 400px;
+    background: #151a27;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.mainInfo{
+    position: fixed;
+    max-width: 800px;
+    width: 400px;
+    top: 10px;
+    left: 10px;
+    background: #151a27;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.littleinfo{
+    display: flex;
+}
+
+.littleinfo div{
+    margin-left: 10px;
+    width: 50%;
+    min-width: 50%;
+}
+
+.nameOfDocument{
+    margin-left: 600px;
+    font-size: 50px;
+}
+
+.lol{
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    top: 500px;
+    left: 50px;
+    border-radius: 50%;
+}
