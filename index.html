@@ -3,90 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link href="styles.css" rel="stylesheet" />
 </head>
     <body>
-        <table cellspacing="15">
-            <tr>
-                <td>
-                    <img src="avatar.jpg" alt="Фото юнита"/>
-                </td>
-                <td>
-                    <h1>C24.MPF.UNION.CDT:170</h1>
-                    <p>Анна Задирова</p>
-                    <p><em>Сотрудник Гражданской Обороны <strong>City-24</strong></em></p>
-                </td>
-            </tr>
-        </table>
+        <h1 class= "nameOfDocument">Информация о сотруднике</h1>
 
-        <hr>
-        <h2>Основная информация</h2>
-        <ul>
-            <li><a href="https://docs.google.com/document/d/1wXHYA7varAkonIP2g5DnX2xHKWrz_eJW_HsV4ylwXP8/edit" target="_blank">Документ личного дела</a></li>
-            <li type="square">Лол</li>
-            <li type="disc">кек</li>
-            <li type="disc">чебурек</li>
-            <li type="disc">Медик</li>
-        </ul>
+        <div class="mainInfo">
+            <img src="avatar.jpg" alt="Фото юнита" class="avatar"/>
 
-        <hr>
-        <h2>Характеристика</h2>
-        <ol>
-            <li>Лол</li>
-            <li>кек</li>
-            <li>чебурек</li>
-            <li>Медик</li>
-        </ol>
+            <div class ="infotext">
+                <h1 class="unitNumber">C24.MPF.UNION.05:170</h1>
+                <p>Анна Задирова</p>
+                <p>Сотрудник Гражданской Обороны <strong>City-24</strong></p>
+            </div>
+        </div>
 
-        <hr>
-        <h2>Опыт работы</h2>
-        <table >
-            <thead>
-                <tr>
-                    <th>Место работы</th>
-                    <th>Должность</th>
-                    <th>Год работы</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Судебно-медицинский центр при Следственном Комитете.</td>
-                    <td>Суд.мед эксперт</td>
-                    <td>2007 - 2016</td>
-                </tr>
-                <tr>
-                    <td>Клиники Пластической Хирургии и Косметологии</td>
-                    <td>Директор</td>
-                    <td>2016 - 2020</td>
-                </tr>  
-                <tr>
-                    <td>Медицинский Блок № 1 при City-3</td>
-                    <td>Глав.врач</td>
-                    <td>2020-2023</td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="container">
+            <div class="littleinfo">
+                <div class="card">
+                    <h2 class="tableOfContents">БАЗОВАЯ ИНФОРМАЦИЯ</h2>
+                    <a href="https://docs.google.com/document/d/1wXHYA7varAkonIP2g5DnX2xHKWrz_eJW_HsV4ylwXP8/edit" target="_blank">Документ личного дела</a>
+                    <p>Имя: Анна Задирова.</p>
+                    <p>Псевдоним: отсутствует.</p>
+                    <p>Произвище: отсутствует.</p>
+                    <p>CID: #</p>
+                    <P>Пол: Женский.</P>
+                    <p>Возраст: 39 лет.</p>
+                    <p>Дата рождения: xx/xx/xxxx</p>
+                    <p>Нация: русская.</p>
+                    <p>Родина: Россия.</p>
+                    <p>Нынешняя локация: City-24.</p>
+                    <p>Образования: Высшее медицинское образование.</p>
+                    <p>Род занятий: служба в Гражданской Обороне.</p>
+    
+                </div>
+    
+                <div class="card">
+                    <h2 class="tableOfContents">ФИЗ. ИНФОРМАЦИЯ</h2>
+                    <p>Физ.Состояние: здорова.</p>
+                    <p>Рост: 189 см.</p>
+                    <p>Вес: 75 кг.</p>
+                    <p>ЦВЕТ ГЛАЗ: </p>
+                    <p>ЦВЕТ ВОЛОСЫ: Светлый.</p>
+                    <p>Этнич.Принадлежность: славянин.</p>
+                    <p>Телосложение: атлетическое.</p>
+                    <p>Одежда: униформа ГО.</p>
+                    <p>Особенности: морщины на лице.</p>
+    
+                </div>
+            </div>
 
-        <hr>
-        <h2>Связи и знакомые</h2>
-        <a href="frienlist.html">Открыть список</a>
+            <div class="littleinfo">
+                <div class="card">
+                    <h2 class="tableOfContents">ПСИХОЛОГИЧЕСКИЙ ПОРТРЕТ</h2>
+                    <p>Психическое состояние: здорова.</p>
+                    <p>Умственные отклонения: не имеется.</p>
+                    <p>Черты характера: __</p>
+                    <p>Интересы: медицина.</p>
+                    <p>Нравится: чтение книг, саморазвитие.</p>
+                    <P>Не нравится: деградация.</P>
+                    <p>Известные языки: русский, английский, латынь.</p>
+                </div>
+    
+                <div class="card">
+                    <h2 class="tableOfContents">СЕМЬЯ</h2>
+                    <p>МАТЬ: Елизавета Задирова (Гуревич) / Жива</p>
+                    <p>ОТЕЦ: Николай Задиров</p>
+                    <P>БРАТЬЯ/СЁСТРА: отсутствуют.</P>
+                    <p>СЕМЕЙНАЯ СПЛОЧЕННОСТЬ: N/A.</p>
+                </div>
+            </div>
 
-        <hr>
-        <h2>OOC</h2>
-        <form action="/">
-            <label form="name">Ваше имя:</label>
-            <input type="text" id="name" 
-            placeholder ="Введите своё имя."> 
-            <br>
-            <label form="email">Ваш email:</label>
-            <input type="email" id="email" 
-            placeholder ="Введите своё email."> 
-            <br>
-            <label form="text">Ваше сообещние:</label>
-            <br>
-            <textarea id="text" rows="15" cols = "105"></textarea>
-            
-            <br>
-            <input type="submit" value="Связаться">
-        </form>
+            <div class="card">
+                <h2>Опыт работы</h2>
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td>Судебно-медицинский центр при Следственном Комитете.</td>
+                            <td>Суд.мед эксперт</td>
+                            <td>2007 - 2016</td>
+                        </tr>
+                        <tr>
+                            <td>Клиники Пластической Хирургии и Косметологии</td>
+                            <td>Директор</td>
+                            <td>2016 - 2020</td>
+                        </tr>  
+                        <tr>
+                            <td>Медицинский Блок № 1 при City-3</td>
+                            <td>Глав.врач</td>
+                            <td>2020-2023</td>
+                        </tr>
+                    </tbody>
+                </table>             
+            </div>
+        </div>
+        
+        <div class="friendship">
+            <h2 class="tableOfContents">Связи и знакомые</h2>
+            <a href="frienlist.html">Открыть список</a>
+        </div>
+
+        <div class="message" >
+            <h2>OOC</h2>
+
+            <form action="/">
+                <div class="row">
+                    <div class="form-group">
+                        <label form="name">Ваше имя:</label>
+                        <input type="text" id="name" 
+                        placeholder ="Введите своё имя."> 
+                    </div>
+
+                    <div class="form-group">
+                        <label form="email">Ваш email:</label>
+                        <input type="email" id="email" 
+                        placeholder ="Введите своё email."> 
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label form="text">Ваше сообещние:</label>
+                    <textarea id="text" rows="15" cols = "105"></textarea>
+                </div>
+
+                <input type="submit" value="Связаться" class="btn">
+            </form>              
+        </div>
+
+        <iframe class="lol" width="1280" height="720" src="https://www.youtube.com/embed/DiDF5AWlvjI?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </body>
 </html>
